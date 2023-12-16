@@ -67,10 +67,14 @@ Glam Pink Color scheme
     /* padding-top: 80px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    gap: 30px;
+    /* gap: 30px; */
     margin-top: 25px;
+    overflow: auto;
+}
+.modalss::-webkit-scrollbar {
+  width: 0;
 }
 
 .button-modal {
@@ -78,14 +82,28 @@ Glam Pink Color scheme
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 25px 150px;
-    border-radius: 30px;
+    /* padding: 25px 157px; */
+    padding-top: 18px;
+    padding-bottom: 15px;
+    width: 77%;
+    border-radius: 12px 12px 0 0;
+    /* margin-bottom: 25px; */
+}
+.cupon__img {
+    width: 77%;
+    /* height: 50%; */
+    margin-bottom: 30px;
 }
 .btn {
   text-decoration: none;
   border: 1px solid rgb(146, 148, 248);
   position: relative;
   overflow: hidden;
+}
+
+.cupon__modal {
+    display: flex;
+    justify-content: center;
 }
 
 .btn:hover {
